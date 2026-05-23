@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Voice Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="assistant.png" alt="Voice Assistant" class="assistant-image">
+        <h1>Interactive Voice Assistant</h1>
+        <button id="start-btn">🎤 Start Listening</button>
+        <div class="button-container">
+            <button class="action-btn" data-command="time">Get Current Time</button>
+            <button class="action-btn" data-command="date">Get Today's Date</button>
+            <button class="action-btn" data-command="joke">Tell Me a Joke</button>
+            <button class="action-btn" data-command="weather">Get Weather Info</button>
+        </div>
+        <p id="instruction">Press the button or speak a command...</p>
+        <div id="response"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
